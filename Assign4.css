@@ -1,0 +1,198 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica;
+}
+
+/* Style the links inside the navigation bar */
+header {
+    background-color: rgb(181, 26, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 150px;
+    /* box-shadow: 0 1px 8px #4c88ba; */
+    position: relative;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 1.5em;
+    color: black;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 90px;
+}
+
+
+/* Style the "active" element to highlight the current page */
+header a {
+    text-decoration: none;
+    color: #000000;
+    transition: all 0.3s ease 0s;
+}
+
+/* Change the color of links on hover */
+
+header a:hover {
+    color: #000000;
+}
+
+/* Style the search box inside the navigation bar */
+nav input[type=text] {
+    /* float: right; */
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.searchButton {
+    width: 80px;
+    height: 36px;
+    border: 1px solid #ffffff;
+    background: #060606;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+
+
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: rgb(181, 26, 163);
+    
+   
+
+}
+section{
+    width: 79rem;
+    height: 48rem; 
+    margin: 20px; 
+    background-color: rgb(217, 223, 228);
+}
+body{
+    background-color: #000000;
+}
+
+
+
+
+
+.alltirtle {
+
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 35px;
+    font-style: italic;
+    color: #000000;
+}
+
+.tirtle1 {
+    text-align: left;
+    margin: 25PX 0 25PX 20PX;
+    font-size: 25px;
+    font-style: italic;
+    color: #000000;
+}
+
+li {
+    list-style-type: disc;
+    padding: 0;
+    align-items: center;
+
+}
+
+.asidebody li {
+    padding: 15px 10px;
+    text-align: center;
+
+    background-color: rgb(181, 26, 163);
+
+}
+
+p {
+    text-align: justify;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+
+
+
+
+.footer-bottom {
+    background: #e5e8e8;
+    width: 100vw;
+    padding: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-bottom p {
+    float: left;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.footer-bottom p a {
+    color: #000000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

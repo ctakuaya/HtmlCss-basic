@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Document</title>
+         <style>
+                  * {
+                           background-color: rgb(250, 250, 250);
+                  }
+
+                  .centered {
+                           width: 80%;
+                           margin: auto;
+                           width: 60%;
+                           border: 3px solid #73AD21;
+                           padding: 10px;
+                  }
+
+                  .cards {
+                           display: flex;
+                           flex-wrap: wrap;
+                           justify-content: space-between;
+                  }
+
+
+                  .card {
+                           flex: 0 1 24%;
+                           border: 5px;
+                  }
+
+                  .headline {
+                           text-align: center;
+                  }
+
+                  .byline {
+                           margin-left: 280px;
+                           background-color: ghostwhite;
+                  }
+
+                  footer {
+                           text-align: center;
+                  }
+         </style>
+</head>
+
+<body>
+
+         <h2 style=" text-align: center;">Blog Post of the VigNews</h2>
+
+         <div class="centered">
+                  <!-- By default, flex items will all try to fit onto one line. Adding the flex-wrap: wrap; makes the items
+  wrap underneath one another because the default is full width. -->
+                  <section class="cards">
+
+                           <!-- /card-one -->
+                           <article class="card">
+                                    <header>
+                                             <h1 class="headline">Headline</h1>
+                                    </header>
+                                    <img src="p.jpg" alt="Avatar" style="width:100%">
+                                    <p>Lorem ipsum dolor sit amet
+                                             consectetur adipisicing
+                                             elit. Doloremque doloribus
+                                             in
+                                             consectetur expedita
+                                             possimus illum facere?
+                                             Enim quasi molestiae
+                                             laudantium!</p>
+                                    <div class="byline">
+                                             <address class="author">By
+                                                      <a rel="author" href="/author/john">John
+                                                      </a>
+                                             </address>
+                                             on <time pubdate datetime="2011-08-28"
+                                                      title="August 28th, 2011">8/28/11</time>
+                                    </div>
+                           </article><!-- /card-one -->
+
+                           <article class="card">
+                                    <header>
+                                             <h1 class="headline">Headline</h1>
+                                    </header>
+                                    <img src="n.jpg" alt="Avatar" style="width:100%">
+                                    <p>Lorem ipsum dolor sit amet
+                                             consectetur adipisicing
+                                             elit. Doloremque doloribus
+                                             in
+                                             consectetur expedita
+                                             possimus illum facere?
+                                             Enim quasi molestiae
+                                             laudantium!</p>
+                                    <div class="byline">
+                                             <address class="author">By
+                                                      <a rel="author" href="/author/john">John
+                                                      </a>
+                                             </address>
+                                             on <time pubdate datetime="2011-08-28"
+                                                      title="August 28th, 2011">8/02/24</time>
+                                    </div>
+                           </article><!-- /card-two -->
+
+                           <article class="card">
+                                    <header>
+                                             <h1 class="headline">Headline</h1>
+                                    </header>
+                                    <img src="g.jpg" alt="Avatar" style="width:100%">
+                                    <p>Lorem ipsum dolor sit amet
+                                             consectetur adipisicing
+                                             elit. Doloremque doloribus
+                                             in
+                                             consectetur expedita
+                                             possimus illum facere?
+                                             Enim quasi molestiae
+                                             laudantium!</p>
+                                    <div class="byline">
+                                             <address class="author">By
+                                                      <a rel="author" href="/author/john">John
+                                                      </a>
+                                             </address>
+                                             on <time pubdate datetime="2011-08-28"
+                                                      title="August 28th, 2011">8/08/24</time>
+                                    </div>
+                           </article><!-- /card-three -->
+                           <article class="card">
+                                    <header>
+                                             <h1 class="headline">Headline</h1>
+                                    </header>
+                                    <img src="g.jpg" alt="Avatar" style="width:100%">
+                                    <p>Lorem ipsum dolor sit amet
+                                             consectetur adipisicing
+                                             elit. Doloremque doloribus
+                                             in
+                                             consectetur expedita
+                                             possimus illum facere?
+                                             Enim quasi molestiae
+                                             laudantium!</p>
+                                    <div class="byline">
+                                             <address class="author">By
+                                                      <a rel="author" href="/author/john">John
+                                                      </a>
+                                             </address>
+                                             on <time pubdate datetime="2011-08-28"
+                                                      title="August 28th, 2011">8/23/24</time>
+                                    </div>
+                           </article><!-- /card-three -->
+                  </section>
+
+         </div>
+
+         <footer>
+                  <h2>© Copyright, VigNews</2>
+         </footer>
+
+</body>
+
+</html>
